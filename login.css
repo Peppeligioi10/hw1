@@ -1,0 +1,103 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:url(sfondo_login.avif) ;
+  background-size: cover;
+  color:white
+}
+h1{
+  text-align: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: lightcoral;
+  width: 30%;
+  height: 220px;
+  margin-left: 35%;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid greenyellow;
+  border-radius: 13px;
+  margin-top:10%;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: lightcoral;
+  width: 30%;
+  height: 360px;
+  margin-left: 35%;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid greenyellow;
+  border-radius: 13px;
+  margin-top:10%;
+}
+label {
+  display: flex;
+  font-size: 150%;
+}
+  
+input {
+  height: 50%;
+  border-radius: 15px;
+}
+.input{
+  height: 100%;
+  margin-left:75%;
+  width: 25%;
+}
+.div{
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden{
+  display: none;
+}
+
+.testo{
+  text-align: center;
+}
+.registrati{
+  border:5px solid greenyellow ;
+  width: 19%;
+  border-radius: 15px;
+  margin-left: 40%;
+  text-align: center;
+}
+.registrati a{
+  text-decoration: none;
+  color: white;
+}
+ #errore{
+  
+  font-size: 14px;
+  position: absolute;
+  top:59%;
+  left: 36%;
+  color: red;
+ }
+ #erroreCredenziali{
+  font-size: 14px;
+  position: absolute;
+  top:48%;
+  left: 36%;
+  color: red;
+ }
+ #erroreRiempireCampi{
+  
+  font-size: 14px;
+  position: absolute;
+  top:70%;
+  left: 36%;
+  color: red;
+ }
+ 
+ #erroreNumeroPass{
+  font-size: 14px;
+  position: absolute;
+  top:70%;
+  left: 36%;
+  color: red;
+ }

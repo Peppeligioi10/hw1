@@ -1,0 +1,100 @@
+body{
+    background-image: url(sfondo_rosso.png);
+    background-size: cover;
+}
+#nomeProfilo{
+    font-size: 60px;
+    font-family: "Rubik Puddles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5%;
+}
+#logout{
+    position: absolute;
+    top:13%;
+    left:80%;
+    background-color: white;
+    width: 15%;
+    height: 5%;
+    border-radius: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+@media (max-width: 500px){
+    #logout{
+        font-size: 105%;
+    }
+}
+#logout a{
+    color:red;
+    text-decoration: none;
+}
+#principale{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    width: 30%;
+}
+
+.informazioni{
+    position: absolute;
+    top: 21%;
+    left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.informazioni div{
+    font-size: 20px;
+}
+@media (max-width: 500px){
+    .informazioni div{
+        font-size: 11px;
+    }
+}
+div a{
+    text-decoration: none;
+    color: black;
+}
+.striscia{
+    color: white;
+    background-color: white;
+    height: 10px;
+}
+footer{
+    background-color:white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 145px;
+}
+@media (max-width: 500px){
+    footer{
+        margin-top: 63px;
+    }
+}
+footer div span{
+    margin-right: 30px;
+    color:black;
+}
+@media (max-width: 500px){
+    footer div span{
+        font-size: 20px;
+    }
+}
+footer div{
+    color:black;
+}
+
+footer img{
+    width: 50px;
+    margin-left: 30px;
+}
+@media (max-width: 500px){
+    #sparisci{
+        display: none;
+    }
+}
+

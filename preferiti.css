@@ -1,0 +1,75 @@
+body{
+    background-image: url(sfondo_rosso.png);
+    background-size: cover;
+}
+#nomeProfilo{
+    font-size: 60px;
+    font-family: "Rubik Puddles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5%;
+}
+#profilo{
+    position: absolute;
+    top:13%;
+    left:80%;
+    background-color: white;
+    width: 15%;
+    height: 5%;
+    border-radius: 10px;
+    font-size: 180%;
+    text-align: center;
+}
+@media (max-width: 500px){
+    #profilo{
+        font-size: 108%;
+    }
+}
+#profilo a{
+    color:red;
+    text-decoration: none;
+}
+
+#Preferiti{
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 5%;
+}
+.drink{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.playlist{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.uso{
+    background-color:lightgray;
+}
+#raccoglitore{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#raccoglitore .book{
+    margin: 10px;
+    border: 3px solid rgb(3, 238, 241);
+    padding: 5px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#reccoglitore img{
+    max-width: 100%;
+}
+#raccoglitore span{
+    font-size: 100%;
+}
+
+.infoDrink{
+    background-color: white;
+    color: red;
+}
